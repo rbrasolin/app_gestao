@@ -1,0 +1,30 @@
+# Ambiente virtual
+.venv/
+venv/
+
+# Arquivos temporários
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Cache do Streamlit
+.streamlit/
+.cache/
+
+# Credenciais (NUNCA subir chaves reais)
+credenciais/*.json
+credenciais/*.key
+credenciais/*.pem
+
+# Backups
+z_backup/
+*.zip
+
+# IDEs / SO
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
